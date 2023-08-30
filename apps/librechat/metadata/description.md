@@ -32,7 +32,7 @@ Keep up with the latest updates by visiting the releases page - [Releases](https
 
 ## General Information
 
-  * [Code of Conduct](CODE_OF_CONDUCT.md)
+  * [Code of Conduct](https://github.com/danny-avila/LibreChat/blob/main/CODE_OF_CONDUCT.md)
   * [Project Origin](https://github.com/danny-avila/LibreChat/blob/main/docs/general_info/project_origin.md)
   * [Multilingual Information](https://github.com/danny-avila/LibreChat/blob/main/docs/general_info/multilingual_information.md)
   * [Tech Stack](https://github.com/danny-avila/LibreChat/blob/main/docs/general_info/tech_stack.md)
@@ -66,7 +66,7 @@ Keep up with the latest updates by visiting the releases page - [Releases](https
 ---
 ## Contributions
   
-  * [Contributor Guidelines](CONTRIBUTING.md)
+  * [Contributor Guidelines](https://github.com/danny-avila/LibreChat/blob/main/CONTRIBUTING.md)
   * [Documentation Guidelines](https://github.com/danny-avila/LibreChat/blob/main/docs/contributions/documentation_guidelines.md)
   * [Contribute a Translation](https://github.com/danny-avila/LibreChat/blob/main/docs/contributions/translation_contribution.md)
   * [Code Standards and Conventions](https://github.com/danny-avila/LibreChat/blob/main/docs/contributions/coding_conventions.md)

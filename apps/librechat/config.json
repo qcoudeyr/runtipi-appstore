@@ -16,7 +16,7 @@
   "website": "https://docs.librechat.ai/",
   "form_fields": [
     {
-        "type": "text",
+        "type": "password",
         "label": "Openai API Key",
         "max": 51,
         "min": 51,
@@ -24,7 +24,7 @@
         "env_variable": "OPENAI_API_KEY"
     },
     {
-        "type": "text",
+        "type": "password",
         "label": "Chatgpt Access Token",
         "max": 100,
         "min": 1,
@@ -32,7 +32,7 @@
         "env_variable": "CHATGPT_ACCESS_TOKEN"
     },
     {
-        "type": "text",
+        "type": "password",
         "label": "Bing Access Token",
         "max": 100,
         "min": 1,
@@ -40,7 +40,7 @@
         "env_variable": "BING_ACCESS_TOKEN"
     },
     {
-        "type": "text",
+        "type": "password",
         "label": "Anthropic Endpoint (Claude)",
         "max": 100,
         "min": 1,
@@ -48,7 +48,7 @@
         "env_variable": "ANTHROPIC_API_KEY"
     },
     {
-        "type": "text",
+        "type": "password",
         "label": "Azure OpenAI Key",
         "max": 100,
         "min": 1,
@@ -72,7 +72,7 @@
         "env_variable": "AZURE_OPENAI_API_DEPLOYMENT_NAME"
     },
     {
-        "type": "text",
+        "type": "password",
         "label": "Azure OpenAI API Version",
         "max": 100,
         "min": 1,
