@@ -22,7 +22,7 @@
         "min": 1,
         "required": true,
         "env_variable": "MONGO_URI"
-    }
+    },
     {
         "type": "password",
         "label": "Openai API Key",
