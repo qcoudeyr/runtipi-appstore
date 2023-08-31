@@ -3,19 +3,6 @@ services:
   librechat: # Should be exact same name as "id" field in config.json
     container_name: librechat  # Should be exact same name as "id" field in config.json
     image: ghcr.io/danny-avila/librechat:v0.5.8 # Try to avoid "latest" tag. As it may break configs in the future.
-    environment:
-      - MONGO_URI=${MONGO_URI}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - CHATGPT_ACCESS_TOKEN=${CHATGPT_ACCESS_TOKEN}
-      - BING_ACCESS_TOKEN=${BING_ACCESS_TOKEN}
-      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-      - AZURE_API_KEY=${AZURE_API_KEY}
-      - AZURE_OPENAI_API_INSTANCE_NAME=${AZURE_OPENAI_API_INSTANCE_NAME}
-      - AZURE_OPENAI_API_DEPLOYMENT_NAME=${AZURE_OPENAI_API_DEPLOYMENT_NAME}
-      - AZURE_OPENAI_API_VERSION=${AZURE_OPENAI_API_VERSION}
-      - PLUGINS_USE_AZURE=${PLUGINS_USE_AZURE}
-      - MEILI_HOST=http://meilisearch:7700
-      - MEILI_HTTP_ADDR=meilisearch:7700
     ports:
       - ${APP_PORT}:3080
     restart: unless-stopped
